@@ -72,4 +72,44 @@ nav ul li a {
     border: none;
     cursor: pointer;
 }
+/* Add new styles below the existing ones */
+.explore-nearby {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.explore-nearby h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.location-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    width: calc(33% - 20px);
+    text-align: center;
+}
+
+.location-card img {
+    width: 100%;
+    height: auto;
+}
+
+.location-card h3 {
+    margin: 10px 0;
+}
+
+.location-card p {
+    color: #777;
+    margin-bottom: 10px;
+}
 
