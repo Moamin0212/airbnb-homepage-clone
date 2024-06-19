@@ -1,3 +1,4 @@
+/* Existing content in styles.css */
 .existing-class {
     color: blue;
 }
@@ -38,3 +39,37 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1em;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #FF5A5F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
