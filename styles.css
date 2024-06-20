@@ -184,4 +184,33 @@ nav ul li a {
     outline: none;
 }
 
+/* Sign Up Section */
+.sign-up {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sign-up h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sign-up p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.sign-up button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #FF5A5F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+
 
