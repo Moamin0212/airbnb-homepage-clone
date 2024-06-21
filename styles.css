@@ -43,8 +43,11 @@ nav ul li a {
 /* Hero Section */
 .hero {
     background-image: url('images/hero-background.jpg');
-    background-size: contain; /* Change from cover to contain to make the image smaller */
-    padding: 50px 20px; /* Reduce the padding to make the section smaller */
+    background-size: contain; /* Ensure the image does not repeat */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; /* Adjust the height to make the section smaller */
+    padding: 50px 20px;
     text-align: center;
     color: white;
 }
