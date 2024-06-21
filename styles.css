@@ -79,7 +79,7 @@ nav ul li a {
     margin-top: 20px; /* Add some margin-top for spacing */
 }
 
-/* Explore Nearby Section */
+/* Explore Section */
 .explore-nearby {
     padding: 50px 20px;
     background-color: #f8f8f8;
@@ -109,15 +109,7 @@ nav ul li a {
 .location-card img {
     width: 100%;
     height: auto;
-}
-
-.location-card h3 {
-    margin: 10px 0;
-}
-
-.location-card p {
-    color: #777;
-    margin-bottom: 10px;
+    object-fit: cover; /* Ensures the image covers the entire container */
 }
 
 /* Live Anywhere Section */
@@ -149,10 +141,7 @@ nav ul li a {
 .category-card img {
     width: 100%;
     height: auto;
-}
-
-.category-card h3 {
-    margin: 10px 0;
+    object-fit: cover; /* Ensures the image covers the entire container */
 }
 
 /* Hosting Call-to-Action Section */
