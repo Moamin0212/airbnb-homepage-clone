@@ -110,6 +110,8 @@ nav ul li a {
     width: 100%;
     height: auto;
     object-fit: cover; /* Ensures the image covers the entire container */
+    max-width: 300px; /* Set a max width */
+    max-height: 200px; /* Set a max height */
 }
 
 /* Live Anywhere Section */
@@ -142,6 +144,8 @@ nav ul li a {
     width: 100%;
     height: auto;
     object-fit: cover; /* Ensures the image covers the entire container */
+    max-width: 300px; /* Set a max width */
+    max-height: 200px; /* Set a max height */
 }
 
 /* Hosting Call-to-Action Section */
