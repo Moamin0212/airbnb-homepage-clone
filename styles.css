@@ -249,6 +249,34 @@ nav ul li a {
     cursor: pointer;
 }
 
+/* Add new styles below the existing ones */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #FF5A5F;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
 /* Explore Nearby Section */
 .explore-nearby {
     padding: 50px 20px;
