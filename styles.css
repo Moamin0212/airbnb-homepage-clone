@@ -50,6 +50,7 @@ nav ul li a {
 .hero h1 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: #FF5A5F; /* Match the header background color */
 }
 
 .search-bar {
