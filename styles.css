@@ -108,10 +108,8 @@ nav ul li a {
 
 .location-card img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Set a fixed height for uniformity */
     object-fit: cover; /* Ensures the image covers the entire container */
-    max-width: 300px; /* Set a max width */
-    max-height: 200px; /* Set a max height */
 }
 
 /* Live Anywhere Section */
@@ -142,10 +140,8 @@ nav ul li a {
 
 .category-card img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Set a fixed height for uniformity */
     object-fit: cover; /* Ensures the image covers the entire container */
-    max-width: 300px; /* Set a max width */
-    max-height: 200px; /* Set a max height */
 }
 
 /* Hosting Call-to-Action Section */
