@@ -42,16 +42,15 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/hero-background.jpg');
-    background-size: cover;
-    padding: 100px 20px;
+    padding: 50px 20px;
     text-align: center;
     color: white;
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 20px;
+    color: #FF5A5F; /* Match the header background color */
 }
 
 .search-bar {
@@ -141,7 +140,14 @@ nav ul li a {
 
 
 
-/* Explore Nearby Section */
+.hero-image img {
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width to make the image smaller */
+    height: auto;
+    margin-top: 20px; /* Add some margin-top for spacing */
+}
+
+/* Explore Section */
 .explore-nearby {
     padding: 50px 20px;
     background-color: #f8f8f8;
@@ -170,16 +176,8 @@ nav ul li a {
 
 .location-card img {
     width: 100%;
-    height: auto;
-}
-
-.location-card h3 {
-    margin: 10px 0;
-}
-
-.location-card p {
-    color: #777;
-    margin-bottom: 10px;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image covers the entire container */
 }
 
 /* Live Anywhere Section */
@@ -210,11 +208,8 @@ nav ul li a {
 
 .category-card img {
     width: 100%;
-    height: auto;
-}
-
-.category-card h3 {
-    margin: 10px 0;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image covers the entire container */
 }
 
 /* Hosting Call-to-Action Section */
